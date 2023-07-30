@@ -1,5 +1,13 @@
 #Asking user for their name
-name = input ("What's your name? ")
+name = input ("What's your name? ").strip().title()
+
+#Remove Whitespaces from the String
+# name = name.strip()
+# name = name.capitalize() 
+# name = name.title() 
+
+#Combined
+# name = name.strip().title()
 
 # print("Hello, ",name,"!")
 print("Hello,",name,"!") #Greet the user!
